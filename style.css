@@ -161,6 +161,11 @@ iframe {
   width: 100vw;
 }
 
+.animation {
+  transform: translateY(50%);
+  transition: transform 2s ease;
+}
+
 
 
 
@@ -265,13 +270,6 @@ iframe {
   }
 
 }
-
-
-
-
-
-
-
 
 
 
