@@ -51,9 +51,9 @@ section img {
     font-size: 3em;
     line-height: 1;
     color: #ffffff;
-    opacity: .8;
+    opacity: 0;
     position: absolute;
-    top: 100px;
+    top: 200px;
     padding-left: 97px;
     padding-right: 97px;
 }
@@ -162,8 +162,10 @@ iframe {
 }
 
 .animation {
-  transform: translateY(50%);
-  transition: transform 2s ease;
+  animation-name: fadeIn2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  z-index: 2
 }
 
 
@@ -243,6 +245,7 @@ iframe {
   .text-block {
     font-size: 1em;
     padding-left: 10px;
+    top: 90px;
   }
 
   .two {
@@ -273,11 +276,18 @@ iframe {
 
 
 
-
-
-
-
-
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes fadeIn {
   0% {
