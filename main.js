@@ -14,3 +14,9 @@ $(window).scroll(function() {
         $(".text-block").addClass("animation");
     }
 });
+
+$(".show-info").on("click", function() {
+  $(this).next().slideToggle()
+
+  return false
+})

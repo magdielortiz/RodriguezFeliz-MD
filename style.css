@@ -1,12 +1,18 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 15px;
   line-height: 1.2;
   color: #1a1a1a;
   background-color: #ffffff;
   padding: 0;
   margin: 0;
+}
+
+h3 {
+  font-weight: 200;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 15px;
 }
 
 header {
@@ -25,22 +31,22 @@ header {
   animation-duration: 3s;
   animation-delay: .4s;
   animation-fill-mode: forwards;
-  z-index: 2
+  z-index: 3;
 }
 
 header h1 img {
-  width:275px;
+  width:230px;
+}
+
+header nav {
+  padding-bottom: 5px;
 }
 
 header nav a {
   font-size: 1em;
-  margin-left: 12px;
   color: #1a1a1a;
+  margin-left: 12px;
   text-decoration: none;
-}
-
-section img {
-  width: 100%;
 }
 
 .container {
@@ -61,51 +67,36 @@ section img {
 .description {
   display: flex;
   justify-content: space-between;
-  margin: 101px 188px 177px 100px;
+  margin: 100px 188px 100px 100px;
 }
 
 .info {
-  max-width: 420px;
+  max-width: 540px;
 }
 
 .book {
   text-decoration: underline;
 }
 
-.first-list {
+.procedures,
+.testimonials {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 100px;
-  right: 82px;
-  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100px 0px 100px 100px;
 }
 
-.second-list {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 420px;
-  right: 82px;
-  margin: 0;
-  margin-bottom: 200px;
+.first-procedure,
+.second-procedure,
+.third-procedure,
+.fourth-procedure,
+.fifth-procedure {
+  width: 380px;
+  margin-right: 50px;
 }
-
-.first-list p,
-.second-list p {
-  margin-top: 8px;
-}
-
-ul li {
-  list-style: none;
-  margin-bottom: 15px;
-  line-height: .4;
-}
-
 
 footer {
-  margin-left: 100px;
-  margin-right: 151px;
+  margin: 150px 151px 0px 100px;
 }
 
 .menu {
@@ -168,12 +159,33 @@ iframe {
   z-index: 2
 }
 
+.list {
+  margin-bottom: 10px;
+}
 
+.list li {
+  display: block;
+}
 
+.list {
+  color: #1a1a1a;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100px;
+}
 
+.info-list {
+  padding-left: 0;
+  margin-right: 40px;
+  width: 265px;
+}
 
-
-
+.info-list li {
+  font-weight: 400;
+  line-height: 1.7;
+}
 
 /**Tablet Version**/
 @media (max-width: 800px) {
@@ -203,20 +215,45 @@ iframe {
     width: 350px;
   }
 
-  footer {
+  .procedures,
+  .testimonials {
     margin-left: 35px;
   }
 
+  .first-procedure,
+  .second-procedure,
+  .third-procedure,
+  .fourth-procedure,
+  .fifth-procedure {
+    width: 33.3%;
+    margin-right: 30px;
+  }
 
-
+  footer {
+    margin-left: 35px;
+  }
 }
 
 /**Iphone**/
 @media (max-width: 465.5px) {
 
+  body {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
   header {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  h2 {
+  font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 
   header h1 img {
@@ -254,14 +291,32 @@ iframe {
 
   .description {
     display: inline;
-    width: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .info {
+
   }
 
   .info,
   .book {
     margin: 50px 10px 50px 10px;
+    width: 96%;
+  }
+
+  .procedures,
+  .testimonials {
+    margin-left: 10px;
+  }
+
+  .first-procedure,
+  .second-procedure,
+  .third-procedure,
+  .fourth-procedure,
+  .fifth-procedure {
+    width: 100%;
+    margin-right: 10px;
   }
 
   footer {
@@ -273,7 +328,6 @@ iframe {
   }
 
 }
-
 
 
 @keyframes fadeIn2 {
