@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'NHaasGrotesk-Regular';
+  src: url('Fonts/NHaasGroteskTXPro-55Rg-regular-webfont.woff2') format('woff2'),
+       url('Fonts/NHaasGroteskTXPro-55Rg-regular-webfont.woff') format('woff'),
+       url('Fonts/NHaasGroteskTXPro-55Rg-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NHaasGrotesk-Light';
+  src: url('Fonts/NHaasGroteskDSPro-45Lt-light-webfont.woff2') format('woff2'),
+       url('Fonts/NHaasGroteskDSPro-45Lt-light-webfont.woff') format('woff'),
+       url('Fonts/NHaasGroteskDSPro-45Lt-light-webfont.ttf') format('truetype');
+}

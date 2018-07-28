@@ -1,12 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-family: 'NHaasGrotesk-Regular', sans-serif;
+  font-weight: 100;
   font-size: 15px;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #1a1a1a;
   background-color: #ffffff;
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  font-family: 'NHaasGrotesk-Light', sans-serif;
 }
 
 h3 {
