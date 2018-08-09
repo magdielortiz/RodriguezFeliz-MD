@@ -279,10 +279,6 @@ iframe {
 
   }
 
-  header h1 img {
-    width:185px;
-  }
-
   header nav {
     opacity: 0;
   }
@@ -340,6 +336,7 @@ iframe {
 
   footer {
     margin-left: 10px;
+    display: block;
   }
 
   .first-hero {
@@ -355,6 +352,9 @@ iframe {
     width: 100%;
 }
 
+.menu-open {
+    z-index: 4;
+}
 
 }
 
