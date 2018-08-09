@@ -203,29 +203,30 @@ iframe {
     margin-right: 35px;
   }
 
+  header nav {
+    padding-bottom: 5.5px;
+}
+
   header h1 img {
-    width:250px;
+    width:225px;
   }
 
   .text-block {
     font-size: 2em;
     padding-left: 32px;
     padding-right: 32px;
+    top: 100px;
   }
 
   .description {
-    margin: 50px 123px 85px 30px;
-    margin-left: 30px;
-  }
-
-  .info {
-    margin-left: 5px;
-    width: 350px;
+    margin: 50px 30px 85px 30px;
+    display: block;
   }
 
   .procedures,
   .testimonials {
-    margin-left: 35px;
+
+    margin: 33.5px 0px 50px 35px;
   }
 
   .first-procedure,
@@ -233,7 +234,7 @@ iframe {
   .third-procedure,
   .fourth-procedure,
   .fifth-procedure {
-    width: 33.3%;
+    width: 45.7%;
     margin-right: 30px;
   }
 
@@ -247,8 +248,7 @@ iframe {
 
   body {
     font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
   header {
@@ -274,7 +274,7 @@ iframe {
   }
 
   .menu nav a {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .menu-toggle {
@@ -302,10 +302,6 @@ iframe {
     display: inline;
     margin: 0;
     padding: 0;
-  }
-
-  .info {
-
   }
 
   .info,
