@@ -221,10 +221,6 @@ iframe {
     object-fit: cover;
   }
 
-  .container {
-    margin-top: 15px;
-  }
-
   .text-block {
     font-size: 2em;
     padding-left: 25px;
@@ -270,13 +266,16 @@ iframe {
     margin-right: 10px;
   }
 
+  header h1 img {
+    width: 200px;
+  }
+
   h2 {
   font-size: 3em;
   }
 
   h3 {
     font-size: 16px;
-
   }
 
   header nav {
@@ -302,6 +301,7 @@ iframe {
     font-size: 1em;
     padding-left: 10px;
     top: 90px;
+    z-index: 1;
   }
 
   .two {
