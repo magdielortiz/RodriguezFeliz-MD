@@ -199,8 +199,8 @@ iframe {
 @media (max-width: 800px) {
 
   header {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   header nav {
@@ -213,20 +213,19 @@ iframe {
 
   .text-block {
     font-size: 2em;
-    padding-left: 32px;
+    padding-left: 25px;
     padding-right: 32px;
     top: 100px;
   }
 
   .description {
-    margin: 50px 30px 85px 30px;
+    margin: 50px 25px 85px 25px;
     display: block;
   }
 
   .procedures,
   .testimonials {
-
-    margin: 33.5px 0px 50px 35px;
+    margin: 33.5px 0px 50px 25px;
   }
 
   .first-procedure,
@@ -239,7 +238,8 @@ iframe {
   }
 
   footer {
-    margin-left: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 
