@@ -1,7 +1,7 @@
 body {
   font-family: 'NHaasGrotesk-Regular', sans-serif;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   color: #1a1a1a;
   background-color: #ffffff;
@@ -71,7 +71,7 @@ header nav a {
 .description {
   display: flex;
   justify-content: space-between;
-  margin: 100px 142px 100px 50px;
+  margin: 100px 148px 100px 50px;
 }
 
 .info {
